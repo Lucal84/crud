@@ -1,0 +1,89 @@
+body {background-color: #004f80;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 30px;
+  }
+  
+  .title {color: white;
+    text-align: center;
+  }
+  
+  .subtitle {color: white;
+    text-align: center;
+  }
+  
+  
+  .input-container {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .input-container input {background-color:  #88c1f7;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+  }
+  
+  .btn-agregar {
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .table-container {
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {text-align: center ;
+    font-weight: bold;
+    background-color: #88c1f7;
+    border:  2px solid #ffffff;
+    padding: 3px;
+    
+  }
+  
+  table th {border: 2px solid #ffffff;
+    background-color: #004f80;
+    color: #ddd;
+  }
+  
+  table td button {
+    padding: 2px 5px;
+  }
+  
+  .btn-editar {background-color: #004f80;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .btn-eliminar {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
